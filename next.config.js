@@ -1,6 +1,5 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   // 启用 React 严格模式
   reactStrictMode: true,
   
@@ -22,4 +21,4 @@ const nextConfig: NextConfig = {
   swcMinify: true,
 };
 
-export default nextConfig;
+module.exports = nextConfig; 
