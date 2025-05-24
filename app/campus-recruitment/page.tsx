@@ -1,7 +1,7 @@
 "use client";
 
 import React from 'react';
-
+import Link from 'next/link';
 export default function CampusRecruitmentPage() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24 bg-gradient-to-br from-orange-50 to-yellow-50">
@@ -12,11 +12,9 @@ export default function CampusRecruitmentPage() {
       </div>
       {/* Return to Home Button */}
       <div className="mt-12">
-        <a href="/"
-          className="px-6 py-3 bg-orange-500 text-white rounded-md hover:bg-orange-600 transition font-semibold shadow-md"
-        >
+        <Link href="/" className="text-blue-600 hover:text-blue-800">
           返回首页
-        </a>
+        </Link> 
       </div>
     </main>
   );
