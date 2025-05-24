@@ -9,7 +9,7 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
 
-  // 环境变量配置
+  // 环境变量配置 
   env: {
     NEXT_PUBLIC_API_URL: process.env.NEXT_PUBLIC_API_URL,
   },
